@@ -4,9 +4,9 @@ import javax.persistence.*;
 
 @Entity
 public class Payment {
+
     @Id
-    @GeneratedValue
-    private Long id;
+    private String id;
 
     @Column
     @ManyToOne
